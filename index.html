@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WebWork.Club</title>
+    <link rel="stylesheet" href="https://use.typekit.net/rrm0wln.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="landing" class="container" style="height:100vh; overflow-y: none">
+        <div class="col s12" style="height: 100%; overflow-y: none;">
+            <div class="valign-wrapper" style="height: 100%; overflow-y: none;">
+                <div class="row">
+                    <img style="width:100%;" src="web-work-club.png">
+                    <div class="row center ">
+                        <a href="#modal1" class="modal-trigger waves-effect waves-light btn-flat" style="margin:2em; padding:1em; font-size: 3em; font-weight: 900;font-style: normal;">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Contact Info</h4>
+      <div class="divider"></div>
+      <p><span class="red-text">Name </span>: Justin Webber</p>
+      <p><span class="red-text">Email </span>: justizz89@gmail.com</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+</body>
+
+<script type="text/javascript">
+	
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+  });
+</script>
+
+</html>
